@@ -1,6 +1,6 @@
 datasource postgresql {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -9,6 +9,7 @@ generator client {
 
 // --------------------------------------
 model User {
-  id   Int    @default(autoincrement()) @id
-  name String
+  id    Int     @default(autoincrement()) @id
+  email String  @unique
+  name  String?
 }
