@@ -28,7 +28,7 @@
   "dependencies": {
     "@prisma/cli": "2.0.0-beta.3",
     "@prisma/client": "2.0.0-beta.3",
-    "blitz": "latest",
+    "blitz": "0.7.0",
     "react": "experimental",
     "react-dom": "experimental",
     "typescript": "3.8.3"
