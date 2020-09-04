@@ -29,7 +29,7 @@
     "@prisma/cli": "2.0.0-beta.3",
     "@prisma/client": "2.0.0-beta.3",
     "blitz": "0.7.0",
-    "react": "0.0.0-experimental-33c3af284",
+    "react": "0.14.0",
     "react-dom": "0.0.0-experimental-33c3af284",
     "typescript": "3.8.3"
   },
